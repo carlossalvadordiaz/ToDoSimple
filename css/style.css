@@ -1,0 +1,67 @@
+.wrapped {
+    display: flex;
+    flex-wrap: wrap;
+
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+#guardarTareas {
+    background-color:lightcoral;
+
+  width: 100%;
+  padding: 20px ;
+}
+
+
+
+#buscarTareas  {
+    width: 100%;
+    padding: 20px;
+    background-color: lightgray;
+    margin-bottom: 10px;
+}
+
+#selectPrioridadBuscar{
+    margin-right: 40px;
+}
+
+#seccionTareas {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+#seccionTareas h2 {
+    width: 60%;
+}
+
+#seccionTareas button{
+    width: 50%;
+    height: 3vh;
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    left: 103px;
+    border: double 1px salmon;
+    background-color: lightskyblue;
+
+}
+
+
+
+
+.diaria {
+    background-color: lightgreen;
+}
+
+.mensual {
+    background-color: yellow;
+}
+
+.urgente {
+    background-color: darksalmon;
+    border: dotted 1px black;
+}
+
