@@ -72,3 +72,28 @@ function borrarElemento(event) {
 }
 
 
+//filtrar por prioridad
+
+function filtrarPorPrioridad(pLista, pPrioridad) {
+
+    let listaFiltrada = pLista.filter(tarea => {
+        return tarea.prioridad == pPrioridad
+    })
+    return listaFiltrada
+
+}
+
+
+//filtrar por palabra buscada
+
+
+function filtrarPorPalabra(pLista, pPalabra) {
+
+    let listaFiltrada = pLista.filter(tarea => {
+        let tareaBuscada = tarea.titulo
+
+        return tareaBuscada.toLowerCase().includes(pPalabra.toLowerCase())
+    })
+
+    return listaFiltrada
+}
